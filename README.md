@@ -1,0 +1,2 @@
+# capricorn
+Simple binary splitter.
