@@ -17,7 +17,7 @@ class Capricorn:
         for b in range(1, blocks):
             buf = self.buffer[:b * self.block_size]
             output_path = os.path.join(path, "{0}_{1}".format(self.filename, b))
-            print("\033[93m>\033[00m Now on block {0}/{1}".format(b, blocks))
+            print("\033[93m>\033[00m Now on block {0}/{1}".format(b, blocks - 1))
             # Block file:
             bf = open(output_path, "wb")
             bf.write(buf)
