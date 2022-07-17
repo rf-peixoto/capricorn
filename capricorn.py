@@ -13,6 +13,7 @@ class Capricorn:
             print("\033[91m  {0}\033[00m".format(str(error)))
 
     def split(self, path):
+        print("Splitting \033[93m{0}\033[00m".format(b, blocks - 1))
         blocks = int(len(self.buffer) / self.block_size)
         for b in range(1, blocks):
             buf = self.buffer[:b * self.block_size]
@@ -22,6 +23,7 @@ class Capricorn:
             bf = open(output_path, "wb")
             bf.write(buf)
             bf.close()
+        print("Done. Thank you for using \033[93mCapricorn\033[00m.")
 
 # START SCRIPT:
 if __name__ == "__main__":
