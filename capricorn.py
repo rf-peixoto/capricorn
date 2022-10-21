@@ -23,7 +23,7 @@ class Capricorn:
             bf = open(output_path, "wb")
             bf.write(buf)
             bf.close()
-        print("Done. Thank you for using \033[93mCapricorn\033[00m.")
+        print("Done.")
 
 # START SCRIPT:
 if __name__ == "__main__":
