@@ -35,7 +35,7 @@ if __name__ == "__main__":
     print("     \/     \/|__|                 \/                 \/\033[00m\n")
 
     if len(sys.argv) != 3:
-        print("\033[93m  Usage:\033[00m {0} [FILENAME] [BLOCK SIZE]".format(sys.argv[0]))
+        print("\033[93m  * Usage:\033[00m {0} [FILENAME] [BLOCK SIZE]".format(sys.argv[0]))
     else:
         # Try to run:
         try:
